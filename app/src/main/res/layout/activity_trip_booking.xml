@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_ground"
+    tools:context=".activities.TripBookingActivity">
+
+
+    <com.example.andproject.utils.MSPTextViewBold
+        android:id="@+id/tv_title_create_booking_trip_booking_activity"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="@string/booking_description"
+        android:textColor="@color/colorPrimaryText"
+        android:background="@drawable/bottom_top"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_trip_booking_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="25dp"
+        android:paddingTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title_create_booking_trip_booking_activity"
+        tools:itemCount="1"
+        tools:listitem="@layout/view_trip" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_booking_description_trip_booking_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="25dp"
+        android:hint="@string/input_text_description"
+        app:hintTextColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rv_trip_booking_activity">
+
+        <com.example.andproject.utils.MSPEditText
+            android:id="@+id/et_booking_description_trip_booking_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:drawableStart="@drawable/ic_baseline_description_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:padding="@dimen/et_padding"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/et_textSize"
+            tools:text="Enter Description" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.example.andproject.utils.MSPButton
+        android:id="@+id/btn_create_booking_trip_booking_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="75dp"
+        android:background="@drawable/button_bg"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingTop="@dimen/btn_padding"
+        android:paddingBottom="@dimen/btn_padding"
+        android:text="@string/post_booking"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/btn_textSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/til_booking_description_trip_booking_activity" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+    android:id="@+id/menu_bottom_navigation"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:itemBackground="@color/wineRed"
+    app:itemIconTint="@drawable/selector"
+    app:itemTextColor="@drawable/selector"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:menu="@menu/menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

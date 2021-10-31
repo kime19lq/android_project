@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="content_image">bild</string>
+    <string name="image_car">bil</string>
+
+    <string name="title_login" translatable="false">LOGGA IN</string>
+    <string name="btn_lbl_login">Logga in</string>
+    <string name="et_hint_email_id" translatable="false">Epost ID</string>
+    <string name="et_hint_password" translatable="false">Lösenord</string>
+    <string name="et_hint_confirm_password">Bekräfta Lösenord</string>
+    <string name="lbl_forgot_password">Glömt Lösenord?</string>
+    <string name="lbl_reset_password">Ändra Lösenord?</string>
+    <string name="lbl_new_password">Ny Lösenord?</string>
+    <string name="don_t_have_an_account">Har inget konto?</string>
+    <string name="register"><u>Registrera</u></string>
+
+    <!--START-->
+    <string name="create_an_account">SKAPA KONTO</string>
+    <string name="google_sign_in">Logga in med Google Kontot</string>
+
+    <string name="hint_last_name">Efternamn</string>
+    <string name="hint_first_name">Förnamn</string>
+
+    <string name="i_agree_to_the_terms_and_condition">Godkänner dessa <u> villkor </u></string>
+
+    <string name="already_have_an_account">Har konto?</string>
+    <!--END-->
+
+    <!--Create Account Validation-->
+    <string name="err_msg_enter_firstname">Vänligen ange förnamn.</string>
+    <string name="err_msg_complete_firstname">Please enter at least 3 Characters for Firstname.</string>
+    <string name="err_msg_enter_lastname">Vänligen ange efternamn.</string>
+    <string name="err_msg_complete_lastname">Please enter at least 3 Characters for Lastname.</string>
+    <string name="err_msg_enter_email">Vänligen ange epost adressen.</string>
+    <string name="err_msg_enter_password">Vänligen knappa in ditt lösenord.</string>
+    <string name="err_msg_enter_confirm_password">Vänligen bekräfta lösenordet.</string>
+    <string name="err_msg_password_confirm_mismatch">Lösenord är olika.</string>
+    <string name="err_msg_agree_terms_conditions">Vänligen godkän villkoren.</string>
+    <string name="account_creation_correct">Tack för att du skapade konto!</string>
+
+    <!-- Progress Dialog -->
+    <string name="please_wait"> Vänligen, vänta! Hämtar ...</string>
+    <string name="sign_in_with_google">Loggar in med Google...</string>
+
+    <string name="idToken">741754275624-u3j5bdhr9gs0d809ggvp6cj9ttncln5j.apps.googleusercontent.com</string>
+
+
+
+    <string name="text_description">Beskrivning</string>
+    <string name="input_text_description">Mata in Beskrivning</string>
+
+    <string name="trip_details">Resa Information</string>
+
+
+    <string name="app_name">Co-Ride</string>
+
+    <string name="textview">Text fält</string>
+    <string name="button">Knapp</string>
+    <string name="create_trip">Skapa resa</string>
+    <string name="active_trips">Aktiva resor</string>
+    <string name="input_text_firstname">Förnamn</string>
+    <string name="input_text_lastname">Efternamn</string>
+    <string name="input_text_username">Användarnamn</string>
+    <string name="input_text_email">E-post</string>
+    <string name="input_text_password">Lösenord</string>
+    <string name="input_text_repeatedPassword">Upprepat lösenord</string>
+    <string name="input_text_phone">Telefonnummer</string>
+    <string name="button_createAccount">Skapa</string>
+    <string name="text_createAccount">Skapa konto</string>
+    <string name="date_text">Datum</string>
+    <string name="to_text">Till</string>
+    <string name="from_text">Från</string>
+    <string name="time_text">Tid</string>
+    <string name="creator_text">Skapare</string>
+    <string name="text_bookedBy">Bokad av</string>
+    <string name="button_delete_trip">Radera</string>
+    <string name="button_bookTrip">Boka resa</string>
+    <string name="firstname_text">Förnamn</string>
+    <string name="lastname_text">Efternamn</string>
+    <string name="tele_text">Telefonnummer</string>
+    <string name="email_text">E-post</string>
+    <string name="available_seats_text">Lediga platser</string>
+    <string name="button_update_trip">Uppdatera</string>
+    <string name="seats">Platser:</string>
+    <string name="number">1</string>
+    <string name="text_destination_to">Destination:</string>
+    <string name="text_origin_from">Från:</string>
+    <string name="text_description_create_text">Beskrivning: Skriv detaljer här.</string>
+    <string name="account_details">Konto detaljer</string>
+    <string name="available_trips">Tillgängliga resor</string>
+    <string name="welcome_to">Välkommen till</string>
+    <string name="co_ride_text">Co-Ride!</string>
+    <string name="login_text">Logga in</string>
+    <string name="sign_up_text_button">Skapa konto</string>
+    <string name="text_or">eller</string>
+    <string name="all_available_trips">Alla tillgängliga resor</string>
+    <string name="my_account">Mitt konto</string>
+    <string name="camera">Kamera</string>
+    <string name="my_bookings">Mina bokningar</string>
+    <string name="trips">Resor</string>
+    <string name="save_button">Spara</string>
+    <string name="log_out">Logga ut</string>
+    <string name="post_trip_text">Skapa resa</string>
+    <string name="numberOfSeatsText">Platser</string>
+    <string name="driver">Förare</string>
+    <string name="hitchhiker">Medresenär</string>
+    <string name="fill_in_booking">Fyll i bokningsbeskrivning!</string>
+    <string name="booking_success">Din bokning är skapad!</string>
+    <string name="error_camera_open">Kan inte öppna kamera</string>
+    <string name="enter_username">Fyll i användarnamn!</string>
+    <string name="enter_firstname">Fyll i förnamn!</string>
+    <string name="enter_lastname">Fyll i efternamn!</string>
+    <string name="enter_email">Fyll i e-post!</string>
+    <string name="enter_password">Fyll i lösenord!</string>
+    <string name="enter_confirmed_pw">Bekräfta lösenord!</string>
+    <string name="password_min_length">Lösenord måste vara minst 6 tecken!</string>
+    <string name="check_password">Kontrollera lösenord, lösenorden matchar inte!</string>
+    <string name="enter_phonenumber">Fyll i telefon nummer!</string>
+    <string name="error_createAccount">Kunde inte skapa konto, försök igen!</string>
+    <string name="tab_text_1">Tabb 1</string>
+    <string name="tab_text_2">Tabb 2</string>
+    <string name="title_activity_error">Error aktivitet</string>
+    <string name="enter_date">Fyll i datum!</string>
+    <string name="enter_origin">Fyll i vartifrån du vill åka!</string>
+    <string name="enter_destination">Fyll i destination!</string>
+    <string name="enter_available_seats">Fyll i antalet tillgängliga platser eller fyll i 0!</string>
+    <string name="trip_success">Din resa skapades!</string>
+    <string name="item_not_found">"Kunde inte hitta "</string>
+    <string name="error_login">Kunde inte logga in, försök igen!</string>
+    <string name="login_success">Inloggningen lyckades!</string>
+    <string name="must_login">Du måste logga in för att skapa resa!</string>
+    <string name="login_first">Du måste logga in först!</string>
+    <string name="full_name">Fullständigt namn</string>
+    <string name="post_booking">Skapa bokning</string>
+    <string name="booking_description">Boknings beskrivning</string>
+    <string name="confirm_password">Bekräfta lösenord</string>
+    <string name="rider">Passagerare</string>
+    <string name="account">Konto</string>
+    <string name="loading">Väntar...</string>
+    <string name="appwidget_text">EXEMPEL</string>
+    <string name="add_widget">app_widget</string>
+    <string name="account_created">Konto skapat</string>
+</resources>

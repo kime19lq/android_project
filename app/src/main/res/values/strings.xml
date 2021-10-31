@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name" translatable="false">Co-Ride</string>
+
+
+    <string name="content_image">image</string>
+    <string name="image_car">car</string>
+    <string name="title_login" translatable="false">LOGIN</string>
+    <string name="et_hint_email_id" translatable="false">Email ID</string>
+    <string name="et_hint_password" translatable="false">Password</string>
+    <string name="lbl_forgot_password">Forgot Password?</string>
+    <string name="lbl_reset_password">Reset Password?</string>
+    <string name="lbl_new_password">New Password?</string>
+    <string name="btn_lbl_login"><u>Login</u></string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register"><u>Register</u></string>
+
+    <!--START-->
+    <string name="create_an_account">CREATE ACCOUNT</string>
+    <string name="google_sign_in">Sign in using Google Account</string>
+
+    <string name="hint_last_name">Last name</string>
+    <string name="hint_first_name">First name</string>
+    <string name="et_hint_confirm_password">Confirm Password</string>
+
+    <string name="i_agree_to_the_terms_and_condition">I Agree To The <u> Terms &amp; Condition </u></string>
+
+    <string name="already_have_an_account">Already have an account?</string>
+    <!--END-->
+
+    <!--Create Account Validation-->
+    <string name="err_msg_enter_firstname">Please enter Firstname</string>
+    <string name="err_msg_complete_firstname">Please enter at least 3 Characters for Firstname</string>
+    <string name="err_msg_enter_lastname">Please enter Last name</string>
+    <string name="err_msg_complete_lastname">Please enter at least 3 Characters for Lastname</string>
+    <string name="err_msg_enter_email">Please enter Email</string>
+    <string name="err_msg_enter_password">Please enter Password</string>
+    <string name="err_msg_enter_confirm_password">Please enter Password confirmation</string>
+    <string name="err_msg_password_confirm_mismatch">Password and confirm password does not match</string>
+    <string name="err_msg_agree_terms_conditions">Please agree to terms and conditions.</string>
+    <string name="account_creation_correct">Thanks for creating account!</string>
+    <string name="login_success">Logged in successfully!</string>
+
+    <!-- Progress Dialog -->
+    <string name="please_wait">Please wait! Processing...</string>
+    <string name="sign_in_with_google">Signing in Using Google...</string>
+
+    <string name="idToken">741754275624-u3j5bdhr9gs0d809ggvp6cj9ttncln5j.apps.googleusercontent.com</string>
+
+    <!-- Old coride app -->
+
+    <string name="text_description_create_text">Description: Write details below...</string>
+
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+
+    <string name="create_trip">Create Trip</string>
+    <string name="active_trips">Active Trips</string>
+    <string name="input_text_firstname">Firstname</string>
+    <string name="input_text_lastname">Lastname</string>
+    <string name="input_text_username">Username</string>
+    <string name="input_text_email">Email</string>
+    <string name="input_text_password">Password</string>
+    <string name="input_text_repeatedPassword">Repeated password</string>
+    <string name="input_text_phone">Phone number</string>
+    <string name="button_createAccount">create</string>
+    <string name="text_createAccount">Create account</string>
+    <string name="date_text">Date</string>
+    <string name="to_text">To</string>
+    <string name="from_text">From</string>
+    <string name="time_text">Time</string>
+    <string name="creator_text">Creator</string>
+    <string name="text_bookedBy">Booked by</string>
+    <string name="button_delete_trip">Delete</string>
+    <string name="button_bookTrip">Book trip</string>
+    <string name="text_description">Description</string>
+    <string name="input_text_description">Enter description</string>
+    <string name="firstname_text">Firstname</string>
+    <string name="lastname_text">Lastname</string>
+    <string name="tele_text">Phone number</string>
+    <string name="email_text">Email</string>
+    <string name="available_seats_text">Available seats</string>
+    <string name="button_update_trip">Update</string>
+    <string name="seats">Seats:</string>
+    <string name="number">1</string>
+    <string name="text_destination_to">Destination:</string>
+    <string name="text_origin_from">Origin:</string>
+    <string name="account_details">Account</string>
+    <string name="available_trips">Available trips</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="co_ride_text">Co-Ride!</string>
+    <string name="login_text">Login</string>
+    <string name="sign_up_text_button">Sign up</string>
+    <string name="text_or">or</string>
+    <string name="all_available_trips">All available trips</string>
+    <string name="my_account">My account</string>
+    <string name="camera">Camera</string>
+    <string name="my_bookings">My Bookings</string>
+    <string name="trips">Trips</string>
+    <string name="trip_details">Trip Details</string>
+    <string name="save_button">Save</string>
+    <string name="log_out">Log out</string>
+    <string name="post_trip_text">Post trip</string>
+    <string name="numberOfSeatsText">Seats</string>
+    <string name="driver">Driver</string>
+    <string name="hitchhiker">Hitchhiker</string>
+    <string name="title_activity_error">ErrorActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="fill_in_booking">Please fill in booking description!</string>
+    <string name="booking_success">Your booking is uploaded successfully.</string>
+    <string name="error_camera_open">Cannot open camera</string>
+    <string name="enter_username">Please enter username!</string>
+    <string name="enter_firstname">Please enter first name!</string>
+    <string name="enter_lastname">Please enter last name</string>
+    <string name="enter_email">Please enter E-mail!</string>
+    <string name="enter_password">Please enter password!</string>
+    <string name="enter_confirmed_pw">Please confirm password!</string>
+    <string name="password_min_length">Password must be at least 6 characters</string>
+    <string name="check_password">Please check password! Passwords doesn´t match!</string>
+    <string name="enter_phonenumber">Please enter your phone-number!</string>
+    <string name="error_createAccount">Unable to create account, try again!</string>
+    <string name="enter_date">Please enter date!</string>
+    <string name="enter_origin">Please enter the origin of your trip!</string>
+    <string name="enter_destination">Please enter the destination of your trip!</string>
+    <string name="enter_available_seats">Please enter the available seats or enter 0!</string>
+    <string name="trip_success">Your  trip is uploaded successfully!</string>
+    <string name="item_not_found">Item not found!</string>
+    <string name="error_login">Unable to log-in, please check connection and try again!</string>
+
+    <string name="must_login">Ýou must log in to create trip!</string>
+    <string name="login_first">You must log in first!</string>
+    <string name="full_name">Full name</string>
+    <string name="booking_description">Booking Description</string>
+    <string name="post_booking">Post booking</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="rider">Rider</string>
+    <string name="account">Account</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="loading">Loading...</string>
+    <string name="account_created">Account created</string>
+
+</resources>
